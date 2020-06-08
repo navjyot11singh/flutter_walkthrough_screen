@@ -1,6 +1,3 @@
-import 'package:flutter_test/flutter_test.dart';
-import 'package:flutterwalkthroughscreen/main.dart';
-
 class SliderModel {
   String _imagePath;
   String _title;
@@ -36,26 +33,26 @@ List<SliderModel> getSlides() {
 
   SliderModel sliderModel = new SliderModel();
 
-  sliderModel.setimagePath("assets/squats.jpg");
-  sliderModel.settitle("Search");
+  sliderModel.setimagePath("assets/pic1.png");
+  sliderModel.settitle("Welcome to hotreloader.com");
   sliderModel.setdescription(
-      "fkdfkldnfkdfdnfkldnfkldklfdsfkldnlkdnfdslkfnsklfnslkfndklnfkldnfldsfkdnflkdnfklsdnlkfndslkfndslkfndknfdsknfsf");
+      "This is one of the screen which is designed by one of the Author of Hotreloader.com don't forget to subscribe to the newsletter for the latest updates");
   slides.add(sliderModel);
 
   sliderModel = new SliderModel();
 
-  sliderModel.setimagePath("assets/squats.jpg");
-  sliderModel.settitle("BLaa BLaa Bla");
+  sliderModel.setimagePath("assets/pic2.png");
+  sliderModel.settitle("Don't forget to subscribe");
   sliderModel.setdescription(
-      "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+      "This second screen which is designed by one of the Author of Hotreloader.com and yaa don't forget to subscribe to the newsletter for the latest updates");
   slides.add(sliderModel);
 
   sliderModel = new SliderModel();
 
-  sliderModel.setimagePath("assets/squats.jpg");
-  sliderModel.settitle("yipeeeee");
+  sliderModel.setimagePath("assets/pic3.png");
+  sliderModel.settitle("Thanks for reading");
   sliderModel.setdescription(
-      "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb");
+      "This is the third screen which is designed by one of the Author of Hotreloader.com go subscribe to the newsletter for the latest updates");
   slides.add(sliderModel);
 
   sliderModel = new SliderModel();

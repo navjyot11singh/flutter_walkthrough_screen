@@ -1,8 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'data/data/data.dart';
 import 'dart:io';
+
+import 'models/slider_model.dart';
 
 void main() => runApp(MyApp());
 
@@ -85,7 +85,7 @@ class _HomeState extends State<Home> {
                   ),
                   Row(
                     children: <Widget>[
-                      for (int i = 0; i < slides.length; i++)
+                      for(int i = 0; i < slides.length; i++)
                         currentIndex == i
                             ? pageIndexIndicator(true)
                             : pageIndexIndicator(false)
